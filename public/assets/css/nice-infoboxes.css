@@ -1,0 +1,211 @@
+/**
+ * Public-facing styles.
+ *
+ * @package Nice_Infoboxes
+ * @since   1.0
+ */
+/* ============================================================================
+   Table of Contents.
+   ----------------------------------------------------------------------------
+   1. Widgets.
+   2. Grid Styles.
+   ========================================================================= */
+/* ============================================================================
+   1. Widgets.
+   ========================================================================= */
+html .nice-infoboxes-widget-box ul.widget_recent_entries li {
+  overflow: hidden;
+}
+html .nice-infoboxes-widget-box ul.widget_recent_entries li .wp-post-image {
+  position: absolute;
+}
+html .nice-infoboxes-widget-box ul.widget_recent_entries li .post-excerpt {
+  clear: both;
+}
+
+/* ============================================================================
+   2. Grid Styles.
+   ========================================================================= */
+.nice-infoboxes.default-styles.grid {
+  overflow: hidden;
+  margin-left: -3%;
+  /* same as your gutter */
+  margin-right: -0.23px;
+}
+.nice-infoboxes.default-styles.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nice-infoboxes.default-styles.grid-pad {
+  padding: 20px 0 20px 20px;
+}
+.nice-infoboxes.default-styles.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+.nice-infoboxes.default-styles .nice-infobox-thumb a {
+  text-decoration: none;
+  border: none;
+}
+.nice-infoboxes.default-styles .nice-infobox-thumb i {
+  font-size: 6em;
+}
+.nice-infoboxes.default-styles .nice-infoboxes-project-thumb {
+  overflow: hidden;
+  position: relative;
+}
+.nice-infoboxes.default-styles .nice-infoboxes-project-thumb img {
+  max-width: 100%;
+}
+.nice-infoboxes.default-styles .nice-infoboxes-project-title h3 {
+  margin: 10px 0 20px;
+}
+.nice-infoboxes.default-styles .nice-infoboxes-project-title h3 a {
+  text-decoration: none;
+}
+.nice-infoboxes.default-styles .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nice-infoboxes.default-styles .row {
+  padding-bottom: 3%;
+}
+.nice-infoboxes.default-styles [class*='columns-'] {
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  padding-left: 3%;
+  text-align: center;
+}
+.nice-infoboxes.default-styles [class*='columns-']:last-of-type {
+  padding-right: 0;
+}
+.nice-infoboxes.default-styles .col-2-3 {
+  width: 66.66%;
+}
+.nice-infoboxes.default-styles .columns-1 {
+  width: 100%;
+}
+.nice-infoboxes.default-styles .columns-2 {
+  width: 50%;
+}
+.nice-infoboxes.default-styles .columns-3 {
+  width: 33.33%;
+}
+.nice-infoboxes.default-styles .columns-4 {
+  width: 25%;
+}
+.nice-infoboxes.default-styles .columns-5 {
+  width: 20%;
+}
+.nice-infoboxes.default-styles .columns-6 {
+  width: 16.66%;
+}
+.nice-infoboxes.default-styles .columns-7 {
+  width: 14.28%;
+}
+.nice-infoboxes.default-styles .columns-8 {
+  width: 12.5%;
+}
+.nice-infoboxes.default-styles .columns-9 {
+  width: 11.11%;
+}
+.nice-infoboxes.default-styles .columns-10 {
+  width: 10%;
+}
+.nice-infoboxes.default-styles .columns-11 {
+  width: 9.09%;
+}
+.nice-infoboxes.default-styles .columns-12 {
+  width: 8.33%;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-2 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-2:nth-child(2n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-3 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-3:nth-child(3n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-4 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-4:nth-child(4n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-5 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-5:nth-child(5n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-6 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-6:nth-child(6n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-7 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-7:nth-child(7n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-8 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-8:nth-child(8n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-9 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-9:nth-child(9n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-10 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-10:nth-child(10n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-11 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-11:nth-child(11n+1) {
+  clear: both;
+}
+@media all and (max-width: 320px) {
+  .nice-infoboxes.default-styles .columns-12 {
+    width: 100%;
+  }
+}
+.nice-infoboxes.default-styles .columns-12:nth-child(12n+1) {
+  clear: both;
+}

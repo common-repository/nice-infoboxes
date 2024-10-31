@@ -1,0 +1,1046 @@
+# Copyright (C) 2015 NiceThemes
+# This file is distributed under the same license as the Nice_Infoboxes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nice InfoBoxes\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/nice-infoboxes\n"
+"POT-Creation-Date: 2016-08-05 19:49-0300\n"
+"PO-Revision-Date: 2016-08-05 19:51-0300\n"
+"Last-Translator: NiceThemes <hello@nicethemes.com>\n"
+"Language-Team: NiceThemes <hello@nicethemes.com >\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: admin/action-links.php:37 admin/ui/init.php:30 admin/ui/sections.php:29
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/help-pointers.php:36
+msgid ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your infoboxes the way you want."
+msgstr ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your infoboxes the way you want."
+
+#: admin/notices.php:95
+#, php-format
+msgid ""
+"You just installed %1$s. Go to %2$sInfoBoxes Settings%3$s to configure the "
+"plugin or %4$sdismiss this message%5$s."
+msgstr ""
+"You just installed %1$s. Go to %2$sInfoBoxes Settings%3$s to configure the "
+"plugin or %4$sdismiss this message%5$s."
+
+#: admin/post-types/infobox/metaboxes.php:54
+#: admin/post-types/infobox/metaboxes.php:270
+msgid "Icon"
+msgstr "Icon"
+
+#: admin/post-types/infobox/metaboxes.php:56
+msgid "Add an icon for your infobox"
+msgstr "Add an icon for your infobox"
+
+#: admin/post-types/infobox/metaboxes.php:63
+msgid "\"Read more\" URL"
+msgstr "\"Read more\" URL"
+
+#: admin/post-types/infobox/metaboxes.php:65
+msgid ""
+"Add an URL for your Read More button in your Infobox on homepage (optional)"
+msgstr ""
+"Add an URL for your Read More button in your Infobox on homepage (optional)"
+
+#: admin/post-types/infobox/metaboxes.php:72
+msgid "\"Read more\" text"
+msgstr "\"Read more\" text"
+
+#: admin/post-types/infobox/metaboxes.php:74
+msgid "Add the anchor text for the \"Read More\" link."
+msgstr "Add the anchor text for the \"Read More\" link."
+
+#: admin/post-types/infobox/metaboxes.php:81
+msgid "Show \"Read more\" link"
+msgstr "Show \"Read more\" link"
+
+#: admin/post-types/infobox/metaboxes.php:83
+msgid "Show your \"Read More\" link inside this infobox."
+msgstr "Show your \"Read More\" link inside this infobox."
+
+#: admin/post-types/infobox/metaboxes.php:90
+msgid "Open in a new window/tab"
+msgstr "Open in a new window/tab"
+
+#: admin/post-types/infobox/metaboxes.php:92
+msgid ""
+"Tick this option if you want your link to be opened in a new window/tab "
+"(optional)."
+msgstr ""
+"Tick this option if you want your link to be opened in a new window/tab "
+"(optional)."
+
+#: admin/post-types/infobox/metaboxes.php:108
+msgid "Infobox Details"
+msgstr "Infobox Details"
+
+#: admin/post-types/infobox/metaboxes.php:139
+msgid "Enter the InfoBox title here"
+msgstr "Enter the InfoBox title here"
+
+#: admin/post-types/infobox/metaboxes.php:156
+msgid "InfoBox image"
+msgstr "InfoBox image"
+
+#: admin/post-types/infobox/metaboxes.php:188
+msgid "Set featured image"
+msgstr "Set featured image"
+
+#: admin/post-types/infobox/metaboxes.php:189
+msgid "Set InfoBox image"
+msgstr "Set InfoBox image"
+
+#: admin/post-types/infobox/metaboxes.php:194
+msgid "Remove featured image"
+msgstr "Remove featured image"
+
+#: admin/post-types/infobox/metaboxes.php:195
+msgid "Remove InfoBox image"
+msgstr "Remove InfoBox image"
+
+#: admin/post-types/infobox/metaboxes.php:238
+#: admin/post-types/infobox/metaboxes.php:239
+msgid "Set Infobox Image"
+msgstr "Set Infobox Image"
+
+#: admin/post-types/infobox/metaboxes.php:273
+#: admin/post-types/infobox/metaboxes.php:286
+#: admin/post-types/infobox/metaboxes.php:290
+#: admin/post-types/infobox/metaboxes.php:341
+msgid "Set icon"
+msgstr "Set icon"
+
+#: admin/post-types/infobox/metaboxes.php:290
+msgid "Modify icon"
+msgstr "Modify icon"
+
+#: admin/post-types/infobox/metaboxes.php:294
+msgid "Remove icon"
+msgstr "Remove icon"
+
+#: admin/post-types/infobox/metaboxes.php:299
+msgid ""
+"If you don't want to show an icon, you can use the infobox image instead."
+msgstr ""
+"If you don't want to show an icon, you can use the infobox image instead."
+
+#: admin/post-types/infobox/metaboxes.php:312
+msgid "Deselect"
+msgstr "Deselect"
+
+#: admin/post-types/infobox/metaboxes.php:320
+msgid "Icon preview"
+msgstr "Icon preview"
+
+#: admin/post-types/infobox/metaboxes.php:331
+msgid "Icon color"
+msgstr "Icon color"
+
+#: admin/post-types/infobox/post-type.php:107
+msgid "InfoBox updated."
+msgstr "InfoBox updated."
+
+#: admin/post-types/infobox/post-type.php:110
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: admin/post-types/infobox/post-type.php:111
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: admin/post-types/infobox/post-type.php:112
+msgid "Infobox updated."
+msgstr "Infobox updated."
+
+#: admin/post-types/infobox/post-type.php:114
+#, php-format
+msgid "InfoBox restored to revision from %s"
+msgstr "InfoBox restored to revision from %s"
+
+#: admin/post-types/infobox/post-type.php:116
+msgid "InfoBox published."
+msgstr "InfoBox published."
+
+#: admin/post-types/infobox/post-type.php:119
+msgid "InfoBox saved."
+msgstr "InfoBox saved."
+
+#: admin/post-types/infobox/post-type.php:121
+msgid "InfoBox submitted."
+msgstr "InfoBox submitted."
+
+#: admin/post-types/infobox/post-type.php:125
+#, php-format
+msgid "InfoBox scheduled for: <strong>%s</strong>."
+msgstr "InfoBox scheduled for: <strong>%s</strong>."
+
+#: admin/post-types/infobox/post-type.php:127
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: admin/post-types/infobox/post-type.php:129
+msgid "InfoBox draft updated."
+msgstr "InfoBox draft updated."
+
+#: admin/ui/footer-links.php:30
+msgid "Themes"
+msgstr "Themes"
+
+#: admin/ui/footer-links.php:36
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/ui/footer-links.php:42 admin/ui/help-tabs.php:50
+#: admin/ui/templates/help-tab-help.php:15
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: admin/ui/footer-links.php:48 admin/ui/templates/help-sidebar.php:20
+msgid "Rate this plugin"
+msgstr "Rate this plugin"
+
+#: admin/ui/help-tabs.php:40 admin/ui/settings-groups.php:27
+#: admin/ui/templates/help-tab-general.php:16
+msgid "General Settings"
+msgstr "General Settings"
+
+#: admin/ui/help-tabs.php:45 admin/ui/settings-groups.php:34
+#: admin/ui/templates/help-tab-advanced.php:16
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: admin/ui/help-tabs.php:55
+msgid "Compatible Themes"
+msgstr "Compatible Themes"
+
+#: admin/ui/sections.php:30
+msgid "Nice InfoBoxes Settings"
+msgstr "Nice InfoBoxes Settings"
+
+#: admin/ui/sections.php:32
+msgid ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+msgstr ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+
+#: admin/ui/sections.php:36
+msgid "About"
+msgstr "About"
+
+#: admin/ui/sections.php:37
+msgid "About Nice InfoBoxes"
+msgstr "About Nice InfoBoxes"
+
+#: admin/ui/settings-groups.php:28
+msgid ""
+"Configure how your infoboxes will be displayed by default. All these options "
+"can be overridden in a shortcode basis."
+msgstr ""
+"Configure how your infoboxes will be displayed by default. All these options "
+"can be overridden in a shortcode basis."
+
+#: admin/ui/settings-groups.php:35
+msgid ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully."
+msgstr ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully."
+
+#: admin/ui/settings.php:31
+msgid "Number of InfoBoxes"
+msgstr "Number of InfoBoxes"
+
+#: admin/ui/settings.php:32
+msgid ""
+"The number of infoboxes to be displayed in a list. A value of 0 (zero) means "
+"no infoboxes will display. Use -1 (minus one) to display unlimited infoboxes."
+msgstr ""
+"The number of infoboxes to be displayed in a list. A value of 0 (zero) means "
+"no infoboxes will display. Use -1 (minus one) to display unlimited infoboxes."
+
+#: admin/ui/settings.php:32 admin/ui/settings.php:39 admin/ui/settings.php:46
+#: admin/ui/settings.php:61
+#, php-format
+msgid "You can override this setting in shortcodes using the %s property."
+msgstr "You can override this setting in shortcodes using the %s property."
+
+#: admin/ui/settings.php:38
+msgid "Number of Columns"
+msgstr "Number of Columns"
+
+#: admin/ui/settings.php:39
+msgid "The number of columns of infoboxes."
+msgstr "The number of columns of infoboxes."
+
+#: admin/ui/settings.php:45
+msgid "Order items by"
+msgstr "Order items by"
+
+#: admin/ui/settings.php:49
+msgid "Infobox ID"
+msgstr "Infobox ID"
+
+#: admin/ui/settings.php:50
+msgid "Title"
+msgstr "Title"
+
+#: admin/ui/settings.php:51
+msgid "Menu Order"
+msgstr "Menu Order"
+
+#: admin/ui/settings.php:52
+msgid "Date"
+msgstr "Date"
+
+#: admin/ui/settings.php:53
+msgid "Random Order"
+msgstr "Random Order"
+
+#: admin/ui/settings.php:55 admin/ui/settings.php:67
+msgid "Select an option"
+msgstr "Select an option"
+
+#: admin/ui/settings.php:60
+msgid "Sort items by"
+msgstr "Sort items by"
+
+#: admin/ui/settings.php:64
+msgid "Ascending Order"
+msgstr "Ascending Order"
+
+#: admin/ui/settings.php:65
+msgid "Descending Order"
+msgstr "Descending Order"
+
+#: admin/ui/settings.php:72
+msgid "Avoid Plugin CSS"
+msgstr "Avoid Plugin CSS"
+
+#: admin/ui/settings.php:73
+msgid "Apply styles to infoboxes using your own CSS."
+msgstr "Apply styles to infoboxes using your own CSS."
+
+#: admin/ui/settings.php:83
+msgid "Remove Data On Deactivation"
+msgstr "Remove Data On Deactivation"
+
+#: admin/ui/settings.php:84
+msgid "Delete all plugin settings once you deactivate it."
+msgstr "Delete all plugin settings once you deactivate it."
+
+#: admin/ui/sidebar-boxes.php:34
+msgid "Subscribe to our Newsletter"
+msgstr "Subscribe to our Newsletter"
+
+#: admin/ui/sidebar-boxes.php:38
+msgid "Need help with this plugin?"
+msgstr "Need help with this plugin?"
+
+#: admin/ui/sidebar-boxes.php:42
+msgid "Like this plugin?"
+msgstr "Like this plugin?"
+
+#: admin/ui/sidebar-boxes.php:46
+msgid "Join us on"
+msgstr "Join us on"
+
+#: admin/ui/tabs.php:32
+msgid "General"
+msgstr "General"
+
+#: admin/ui/tabs.php:42
+msgid "Advanced"
+msgstr "Advanced"
+
+#: admin/ui/templates/about-heading.php:19
+msgid "A beautiful and organized way to show information to your visitors."
+msgstr "A beautiful and organized way to show information to your visitors."
+
+#: admin/ui/templates/help-sidebar.php:16
+msgid "For more information:"
+msgstr "For more information:"
+
+#: admin/ui/templates/help-sidebar.php:17
+msgid "WordPress.org Plugin"
+msgstr "WordPress.org Plugin"
+
+#: admin/ui/templates/help-sidebar.php:18
+msgid "Github Project"
+msgstr "Github Project"
+
+#: admin/ui/templates/help-sidebar.php:19
+#: admin/ui/templates/help-tab-themes.php:16
+msgid "Official Themes"
+msgstr "Official Themes"
+
+#: admin/ui/templates/help-tab-advanced.php:18
+msgid ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it."
+msgstr ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it."
+
+#: admin/ui/templates/help-tab-advanced.php:20
+#, php-format
+msgid ""
+"If you need further support, please consider checking the %sdocumentation%s "
+"or %sreporting a bug%s."
+msgstr ""
+"If you need further support, please consider checking the %sdocumentation%s "
+"or %sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-general.php:18
+msgid ""
+"Configure how your Infoboxes will be displayed by default. The options "
+"presented here can be overridden in a shortcode basis. You can set the number "
+"of infoboxes to display by default, change the size of the images, select the "
+"information you want to show, etc."
+msgstr ""
+"Configure how your Infoboxes will be displayed by default. The options "
+"presented here can be overridden in a shortcode basis. You can set the number "
+"of infoboxes to display by default, change the size of the images, select the "
+"information you want to show, etc."
+
+#: admin/ui/templates/help-tab-general.php:20
+#, php-format
+msgid ""
+"This screen provides the most basic settings for configuring the plugin. If "
+"you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+msgstr ""
+"This screen provides the most basic settings for configuring the plugin. If "
+"you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-help.php:17
+#, php-format
+msgid ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+msgstr ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+
+#: admin/ui/templates/help-tab-help.php:19
+#, php-format
+msgid ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+msgstr ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+
+#: admin/ui/templates/help-tab-help.php:21
+msgid "Found a bug?"
+msgstr "Found a bug?"
+
+#: admin/ui/templates/help-tab-help.php:23
+msgid ""
+"If you find a bug within this plugin, you can either report it in our forum "
+"or create a ticket via GitHub issues. Be as descriptive as possible and "
+"please tell us how to reproduce the issue step by step."
+msgstr ""
+"If you find a bug within this plugin, you can either report it in our forum "
+"or create a ticket via GitHub issues. Be as descriptive as possible and "
+"please tell us how to reproduce the issue step by step."
+
+#: admin/ui/templates/help-tab-help.php:25
+msgid "Report bug in GitHub"
+msgstr "Report bug in GitHub"
+
+#: admin/ui/templates/help-tab-help.php:25
+msgid "Report bug in forum"
+msgstr "Report bug in forum"
+
+#: admin/ui/templates/help-tab-themes.php:18
+msgid ""
+"We create wonderful WordPress Plugins and Themes. Some of them are "
+"distributed for free, like this one. If you like this plugin, please consider "
+"checking our paid products."
+msgstr ""
+"We create wonderful WordPress Plugins and Themes. Some of them are "
+"distributed for free, like this one. If you like this plugin, please consider "
+"checking our paid products."
+
+#: admin/ui/templates/help-tab-themes.php:20
+msgid "Check the official Themes"
+msgstr "Check the official Themes"
+
+#: admin/ui/templates/widget-help.php:16
+msgid ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+msgstr ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+
+#: admin/ui/templates/widget-help.php:17
+msgid "Read plugin documentation"
+msgstr "Read plugin documentation"
+
+#: admin/ui/templates/widget-newsletter.php:16
+msgid ""
+"If you would like to keep up to date regarding Nice InfoBoxes and other "
+"plugins by NiceThemes, subscribe to the newsletter:"
+msgstr ""
+"If you would like to keep up to date regarding Nice InfoBoxes and other "
+"plugins by NiceThemes, subscribe to the newsletter:"
+
+#: admin/ui/templates/widget-newsletter.php:31
+msgid "Email Address"
+msgstr "Email Address"
+
+#: admin/ui/templates/widget-newsletter.php:41
+msgid "Get me in!"
+msgstr "Get me in!"
+
+#: admin/ui/templates/widget-rate-plugin.php:16
+msgid ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and consider "
+"checking our paid products."
+msgstr ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and consider "
+"checking our paid products."
+
+#: admin/ui/templates/widget-rate-plugin.php:18
+msgid "See our official themes"
+msgstr "See our official themes"
+
+#: admin/ui/templates/widget-rate-plugin.php:19
+msgid "Check other plugins by NiceThemes"
+msgstr "Check other plugins by NiceThemes"
+
+# Plugin name
+#: includes/i18n.php:26
+msgid "Nice InfoBoxes"
+msgstr "Nice InfoBoxes"
+
+#: includes/i18n.php:27
+msgid "Nice InfoBoxes By NiceThemes"
+msgstr "Nice InfoBoxes By NiceThemes"
+
+#: includes/i18n.php:28
+msgid "Show any kind of information in a beautiful and organized way."
+msgstr "Show any kind of information in a beautiful and organized way."
+
+#: includes/post-types/infobox/category.php:33
+msgid "Infobox Categories"
+msgstr "Infobox Categories"
+
+#: includes/post-types/infobox/category.php:34
+msgid "Infobox Category"
+msgstr "Infobox Category"
+
+#: includes/post-types/infobox/category.php:35
+msgid "Categories"
+msgstr "Categories"
+
+#: includes/post-types/infobox/category.php:36
+msgid "Category"
+msgstr "Category"
+
+#: includes/post-types/infobox/category.php:37
+msgid "Search Categories"
+msgstr "Search Categories"
+
+#: includes/post-types/infobox/category.php:38
+msgid "Popular Categories"
+msgstr "Popular Categories"
+
+#: includes/post-types/infobox/category.php:39
+msgid "All Categories"
+msgstr "All Categories"
+
+#: includes/post-types/infobox/category.php:40
+msgid "Edit Category"
+msgstr "Edit Category"
+
+#: includes/post-types/infobox/category.php:41
+msgid "View Category"
+msgstr "View Category"
+
+#: includes/post-types/infobox/category.php:42
+msgid "Update Category"
+msgstr "Update Category"
+
+#: includes/post-types/infobox/category.php:43
+msgid "Add New Category"
+msgstr "Add New Category"
+
+#: includes/post-types/infobox/category.php:44
+msgid "New Category Name"
+msgstr "New Category Name"
+
+#: includes/post-types/infobox/category.php:45
+msgid "Parent Category"
+msgstr "Parent Category"
+
+#: includes/post-types/infobox/category.php:46
+msgid "Parent Category:"
+msgstr "Parent Category:"
+
+#: includes/post-types/infobox/post-type.php:33
+#: includes/post-types/infobox/post-type.php:35
+msgid "InfoBoxes"
+msgstr "InfoBoxes"
+
+#: includes/post-types/infobox/post-type.php:34
+#: includes/post-types/infobox/post-type.php:36
+msgid "InfoBox"
+msgstr "InfoBox"
+
+#: includes/post-types/infobox/post-type.php:37
+msgid "Add New"
+msgstr "Add New"
+
+#: includes/post-types/infobox/post-type.php:38
+msgid "Add New InfoBox"
+msgstr "Add New InfoBox"
+
+#: includes/post-types/infobox/post-type.php:39
+msgid "Edit InfoBox"
+msgstr "Edit InfoBox"
+
+#: includes/post-types/infobox/post-type.php:40
+msgid "New InfoBox"
+msgstr "New InfoBox"
+
+#: includes/post-types/infobox/post-type.php:41
+msgid "View InfoBox"
+msgstr "View InfoBox"
+
+#: includes/post-types/infobox/post-type.php:42
+msgid "Search InfoBox"
+msgstr "Search InfoBox"
+
+#: includes/post-types/infobox/post-type.php:43
+msgid "No infoboxes found"
+msgstr "No infoboxes found"
+
+#: includes/post-types/infobox/post-type.php:44
+msgid "No infoboxes found in trash"
+msgstr "No infoboxes found in trash"
+
+#: includes/post-types/infobox/post-type.php:45
+msgid "All InfoBoxes"
+msgstr "All InfoBoxes"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:179
+msgid "Use This File"
+msgstr "Use This File"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:181
+msgid "Remove"
+msgstr "Remove"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:370
+msgid "Upload file"
+msgstr "Upload file"
+
+#: lib/admin-ui/includes/class-admin-ui-html-handler.php:176
+msgid "Search"
+msgstr "Search"
+
+#: lib/custom-post-type/glancer/domain/class-glancer-service.php:71
+msgid ""
+"Trying to add At a Glance items to dashboard widget after hook already fired"
+msgstr ""
+"Trying to add At a Glance items to dashboard widget after hook already fired"
+
+#: lib/custom-post-type/metabox/create/class-metabox-create-responder.php:101
+#, php-format
+msgid "%s Settings"
+msgstr "%s Settings"
+
+#: lib/custom-post-type/metabox/includes/class-metabox-html-handler.php:242
+#, php-format
+msgid ""
+"%s method is not implemented yet. Please use another method to display an "
+"option for %s"
+msgstr ""
+"%s method is not implemented yet. Please use another method to display an "
+"option for %s"
+
+#: lib/custom-post-type/post-type-admin/display/class-post-type-admin-display-responder.php:69
+msgid "Image"
+msgstr "Image"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:109
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:110
+#, php-format
+msgid "Add %s"
+msgstr "Add %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:111
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:183
+#, php-format
+msgid "Edit %s"
+msgstr "Edit %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:112
+#, php-format
+msgid "New %s"
+msgstr "New %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:113
+#, php-format
+msgid "View %s"
+msgstr "View %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:114
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:190
+#, php-format
+msgid "Search %s"
+msgstr "Search %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:115
+#, php-format
+msgid "No %s found"
+msgstr "No %s found"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:116
+#, php-format
+msgid "No %s in the trash"
+msgstr "No %s in the trash"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:184
+#, php-format
+msgid "Update %s"
+msgstr "Update %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:185
+#, php-format
+msgid "Add New %s"
+msgstr "Add New %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:186
+#, php-format
+msgid "New %s Name"
+msgstr "New %s Name"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:187
+#, php-format
+msgid "Parent %s"
+msgstr "Parent %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:188
+#, php-format
+msgid "Parent %s:"
+msgstr "Parent %s:"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:189
+#, php-format
+msgid "All %s"
+msgstr "All %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:191
+#, php-format
+msgid "Popular %s"
+msgstr "Popular %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:192
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separate %s with commas"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:193
+#, php-format
+msgid "Add or remove %s"
+msgstr "Add or remove %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:194
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Choose from the most used %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:195
+#, php-format
+msgid "No %s found."
+msgstr "No %s found."
+
+#: lib/nice-adr/src/functions.php:237
+#, php-format
+msgid "%s action does not exist. You need to create it in order to proceed."
+msgstr "%s action does not exist. You need to create it in order to proceed."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:69
+#, php-format
+msgid ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please "
+"upgrade WordPress and try again."
+msgstr ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please "
+"upgrade WordPress and try again."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:71
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:78
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:85
+#, php-format
+msgid "Back to %1$sWordPress Dashboard%2$s."
+msgstr "Back to %1$sWordPress Dashboard%2$s."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:76
+#, php-format
+msgid ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact "
+"your hosting provider about this issue."
+msgstr ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact "
+"your hosting provider about this issue."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:83
+#, php-format
+msgid ""
+"%s requires GD Library for PHP, which is not installed on your server. Please "
+"contact your hosting provider about this issue."
+msgstr ""
+"%s requires GD Library for PHP, which is not installed on your server. Please "
+"contact your hosting provider about this issue."
+
+#: lib/plugin-api/admin/functions.php:76
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_infoboxes_plugin_admin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_infoboxes_plugin_admin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/functions.php:239
+#, php-format
+msgid "(This message was added in %s version %s.)"
+msgstr "(This message was added in %s version %s.)"
+
+#: lib/plugin-api/functions.php:240
+#, php-format
+msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+msgstr "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+
+#: lib/plugin-api/plugin/functions.php:70
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_infoboxes_plugin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_infoboxes_plugin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/public/functions.php:67
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_infoboxes_plugin_public_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_infoboxes_plugin_public_after_init in order to prevent recursion."
+
+#: public/template-tags.php:90
+msgid "View More"
+msgstr "View More"
+
+#~ msgid "Enter the infobox title here"
+#~ msgstr "Enter the infobox title here"
+
+#~ msgid "Infobox image"
+#~ msgstr "Infobox image"
+
+#~ msgid "Set infobox image"
+#~ msgstr "Set infobox image"
+
+#~ msgid "Remove infobox image"
+#~ msgstr "Remove infobox image"
+
+#~ msgid "Infobox updated. <a href=\"%s\">View infobox</a>"
+#~ msgstr "Infobox updated. <a href=\"%s\">View infobox</a>"
+
+#~ msgid "Infobox restored to revision from %s"
+#~ msgstr "Infobox restored to revision from %s"
+
+#~ msgid "Infobox published. <a href=\"%s\">View infobox</a>"
+#~ msgstr "Infobox published. <a href=\"%s\">View infobox</a>"
+
+#~ msgid "Infobox saved."
+#~ msgstr "Infobox saved."
+
+#~ msgid ""
+#~ "Infobox submitted. <a target=\"_blank\" href=\"%s\">Preview infobox</a>"
+#~ msgstr ""
+#~ "Infobox submitted. <a target=\"_blank\" href=\"%s\">Preview infobox</a>"
+
+#~ msgid ""
+#~ "Infobox scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview infobox</a>"
+#~ msgstr ""
+#~ "Infobox scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview infobox</a>"
+
+#~ msgid ""
+#~ "Infobox draft updated. <a target=\"_blank\" href=\"%s\">Preview infobox</a>"
+#~ msgstr ""
+#~ "Infobox draft updated. <a target=\"_blank\" href=\"%s\">Preview infobox</a>"
+
+#~ msgid ""
+#~ "<code>%s</code> method is not implemented yet. Please use another method "
+#~ "to display an option for <code>%s</code>"
+#~ msgstr ""
+#~ "<code>%s</code> method is not implemented yet. Please use another method "
+#~ "to display an option for <code>%s</code>"
+
+#~ msgid ""
+#~ "You just installed %1$s. Go to %2$sInfoboxes Settings%3$s to configure the "
+#~ "plugin or %4$sdismiss this message%5$s."
+#~ msgstr ""
+#~ "You just installed %1$s. Go to %2$sInfoboxes Settings%3$s to configure the "
+#~ "plugin or %4$sdismiss this message%5$s."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_admin_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_admin_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_public_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_public_after_init in order to prevent recursion."
+
+# Plugin description
+#~ msgid ""
+#~ "Show any kind of information in a beautiful and organized way on your "
+#~ "WordPress site."
+#~ msgstr ""
+#~ "Show any kind of information in a beautiful and organized way on your "
+#~ "WordPress site."
+
+# Plugin name + author
+#~ msgid "Nice InfoBoxes by NiceThemes"
+#~ msgstr "Nice InfoBoxes by NiceThemes"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "Add Images to Project Gallery"
+#~ msgstr "Add Images to Project Gallery"
+
+#~ msgid "Add to gallery"
+#~ msgstr "Add to gallery"
+
+#~ msgid ""
+#~ "This method requires to be used in your child class and receive a value "
+#~ "for $template_slug in order to load a template for your widget form."
+#~ msgstr ""
+#~ "This method requires to be used in your child class and receive a value "
+#~ "for $template_slug in order to load a template for your widget form."
+
+#~ msgid ""
+#~ "This method does not work as a fallback for child classes. You need to "
+#~ "extend the %s class and define a public method called widget for the "
+#~ "public side of your custom widget."
+#~ msgstr ""
+#~ "This method does not work as a fallback for child classes. You need to "
+#~ "extend the %s class and define a public method called widget for the "
+#~ "public side of your custom widget."
+
+#~ msgid "Infoboxes Settings"
+#~ msgstr "Infoboxes Settings"
+
+#~ msgid "Number of Infoboxes"
+#~ msgstr "Number of Infoboxes"
+
+#~ msgid "The number of columns to be displayed in a gallery."
+#~ msgstr "The number of columns to be displayed in a gallery."
+
+#~ msgid ""
+#~ "If you would like to keep up to date regarding the Infoboxes plugin and "
+#~ "other plugins by NiceThemes, subscribe to the newsletter:"
+#~ msgstr ""
+#~ "If you would like to keep up to date regarding the Infoboxes plugin and "
+#~ "other plugins by NiceThemes, subscribe to the newsletter:"
+
+#~ msgid "Infoboxes"
+#~ msgstr "Infoboxes"
+
+#~ msgid "Infobox"
+#~ msgstr "Infobox"
+
+#~ msgid "Add New Infobox"
+#~ msgstr "Add New Infobox"
+
+#~ msgid "Edit Infobox"
+#~ msgstr "Edit Infobox"
+
+#~ msgid "New Infobox"
+#~ msgstr "New Infobox"
+
+#~ msgid "View Infobox"
+#~ msgstr "View Infobox"
+
+#~ msgid "Search Infobox"
+#~ msgstr "Search Infobox"
+
+#~ msgid "All Infoboxes"
+#~ msgstr "All Infoboxes"
+
+#~ msgid "You can override this setting in shortcodes using the %s property"
+#~ msgstr "You can override this setting in shortcodes using the %s property"
+
+#~ msgid "Sample Help tab"
+#~ msgstr "Sample Help tab"
+
+#~ msgid ""
+#~ "This is an extended header that can be hidden, or shown, depending on the "
+#~ "screen and the plugin Purpose."
+#~ msgstr ""
+#~ "This is an extended header that can be hidden, or shown, depending on the "
+#~ "screen and the plugin Purpose."
+
+#~ msgid ""
+#~ "Sitewide subhead banner. This is a kinda' front page layout. We need to "
+#~ "define a content-sidebar layout still."
+#~ msgstr ""
+#~ "Sitewide subhead banner. This is a kinda' front page layout. We need to "
+#~ "define a content-sidebar layout still."
+
+#~ msgid ""
+#~ "Configure how your infoboxes will be displayed by default. All the options "
+#~ "presented here can be overridden in a shortcode basis."
+#~ msgstr ""
+#~ "Configure how your infoboxes will be displayed by default. All the options "
+#~ "presented here can be overridden in a shortcode basis."
+
+#~ msgid ""
+#~ "This is a sample message. You can %1$s click here %2$s to dismiss this. "
+#~ "This same kind of message can be used for automated update processes."
+#~ msgstr ""
+#~ "This is a sample message. You can %1$s click here %2$s to dismiss this. "
+#~ "This same kind of message can be used for automated update processes."
